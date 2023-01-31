@@ -1,7 +1,6 @@
 {
   "name": "voosh_application",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -18,5 +17,17 @@
     "express-session": "^1.17.3",
     "mongoose": "^6.9.0",
     "view-engine": "^1.1.1"
-  }
+  },
+  "devDependencies": {
+    "mocha": "^1.21.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishwaTj/Voosh_Application.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vishwaTj/Voosh_Application/issues"
+  },
+  "homepage": "https://github.com/vishwaTj/Voosh_Application#readme",
+  "description": ""
 }
