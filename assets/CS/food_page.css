@@ -1,0 +1,144 @@
+/* ******* top section with heading ******** */
+h1{
+    text-align: center;
+    margin-right: 60px;
+}
+
+#no-order{
+    position: relative;
+    left: 400px;
+    top:100px;
+}
+h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h4 a{
+    text-decoration: none;
+    color: blue;
+}
+/* ************************ Recipe form ****************** */
+
+.Recipe-button{
+    position: absolute;
+    left: 1300px;
+    top: 80px;
+}
+
+.input-values{
+    display: block;
+    position: relative;
+}
+
+.input-container{
+    position:absolute;
+    background-color: gray;
+    left: 420px;
+    top: 80px;
+    height:400px;
+    width:600px;
+    margin-top: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px grey;
+    transition: 1.5s;
+    z-index: 1;
+}
+
+.close-form{
+    position: relative;
+    top: 0px;
+    left: 550px;
+    right:2px;
+    width: 50px;
+    height:50px;
+    border: none;
+    background-color: inherit;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    transition: 1.5s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.section{
+    margin-bottom: 20px;
+}
+
+#input-block{
+    margin-top: 30px;
+}
+
+.labels{
+    margin-left: 50px;
+    font-size:x-large;
+}
+
+#desc-div{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+.input-box{
+    margin-left: 25px;
+    height: 40px;
+    width: 300px;
+}
+
+#form-box{
+    position: relative;
+    top:-40px;
+    width: 100%;
+}
+
+#label{
+     margin-left: 100px;
+}
+
+.desc-input{
+    margin-left: 30px;
+    height: 100px;
+}
+
+input[type=submit]{
+    position: relative;
+    left: 260px;
+}
+
+/* **************** Orders sections ******************** */
+
+
+.orders-section li{
+    list-style: none;
+}
+
+.orders-box{
+    position: relative;
+    left: 435px;
+    top:40px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.orders-items h4{
+    margin-top: 9px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+
+.orders-items span{
+    font-weight: 100;
+    font-family: 'Chivo Mono', monospace;
+    font-size: small;
+}
+

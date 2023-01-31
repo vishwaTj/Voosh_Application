@@ -1,0 +1,35 @@
+
+/* *********  Styling the navbar of the API **********  */
+#nav-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+  height: 10vh;  
+  background-color: darkcyan; 
+}
+
+#nav-bar img{
+    height:70%;
+    width: 60px;
+    background-color: inherit;
+    margin-left: 40px;
+    margin-top: 8px;
+}
+
+#login-section{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#login-section h4{
+    margin: 0;
+    margin-right: 10px;
+}
+
+/* ********** Stylinh the main container of the page ************ */
+#main-container{
+    text-align: center;
+}
